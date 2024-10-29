@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn On Demand</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Learn On Demand</h1>
+        <p>Get any topic you want to learn delivered to you for £1.99!</p>
+    </header>
+
+    <main>
+        <form id="learningForm">
+            <label for="topic">Topic:</label>
+            <input type="text" id="topic" name="topic" placeholder="Type the topic you want to learn">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address">
+            <button type="button" onclick="alert('Payment system will go here')">Pay £1.99</button>
+        </form>
+    </main>
+</body>
+</html>
